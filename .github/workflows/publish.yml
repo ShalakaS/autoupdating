@@ -18,7 +18,7 @@ jobs:
     - name: Install all necessary packages
       run: pip install jupyter playwright lxml pandas requests beautifulsoup4
     - name: Run the scraping script
-      run: jupyter nbconvert --to notebook --execute "Pumpkin update script.ipynb" --stdout
+      run: jupyter nbconvert --to notebook --execute "Untitled.ipynb" --stdout
     - name: Commit and push any changes
       run: |-
         git config user.name "Automated"
