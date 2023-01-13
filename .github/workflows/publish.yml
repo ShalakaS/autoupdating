@@ -16,8 +16,10 @@ jobs:
         python-version: '3.10'
     - name: Install all necessary packages
       run: pip install jupyter lxml pandas requests beautifulsoup4
+    - name: Ensure browsers are installed
+      run: python -m playwright install --with-deps
     - name: Run the scraping script
-      run: jupyter nbconvert --to notebook --execute "Cornwall hills.ipynb" --stdout python -m playwright install --with-deps
+      run: jupyter nbconvert --to notebook --execute "Cornwall hills.ipynb" --stdout
     - name: Commit and push any changes
       run: |-
         git config user.name "Automated"
