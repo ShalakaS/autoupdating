@@ -8,20 +8,22 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out this repo
-      uses: actions/checkout@v2
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.10'
-    - name: Install all necessary packages
-      run: pip install jupyter lxml pandas requests beautifulsoup4
-    - name: Ensure browsers are installed
-      run: python -m playwright install --with-deps
-    - name: Run the scraping script
-      run: jupyter nbconvert --to notebook --execute "Cornwall hills.ipynb" --stdout
-    - name: Commit and push any changes
-      run: |-
+     - uses: actions/checkout@v3
+     - name: Set up Python
+       uses: actions/setup-python@v4
+       with:
+        python-version: '3.11'
+     - name: Install dependencies
+       run: |-
+         python -m pip install --upgrade pip
+         pip install -r local-requirements.txt
+         pip install -e .
+     - name: Ensure browsers are installed
+       run: python -m playwright install --with-deps
+     - name: Run the scraping script
+       run: jupyter nbconvert --to notebook --execute "Untitled.ipynb" --stdout
+     - name: Commit and push any changes
+       run: |-
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
         git add -A
