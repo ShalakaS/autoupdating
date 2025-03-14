@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   # schedule/cron means "on a set schedule"
   schedule:
-    - cron: '* */1 * * *'
+    - cron: '* */12 * * *'
 permissions:
   contents: write
 jobs:
@@ -29,7 +29,7 @@ jobs:
         run: playwright install
       # MAKE SURE YOUR SCRAPER FILENAME MATCHES THE FILENAME HERE!!
       - name: Run the scraping script
-        run: jupyter nbconvert --to notebook --execute "Untitled.ipynb" --stdout
+        run: jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --stdout
       # I just stole the rest of this code so don't ask me questions about it
       - name: Commit and push if content changed
         run: |-
