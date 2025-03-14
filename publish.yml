@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   # schedule/cron means "on a set schedule"
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 */6 * * *'
 jobs:
   scrape:
     # For some reason, we run love versions of linux
