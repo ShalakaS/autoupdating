@@ -27,7 +27,7 @@ jobs:
         run: playwright install
       # MAKE SURE YOUR SCRAPER FILENAME MATCHES THE FILENAME HERE!!
       - name: Run the scraping script
-        run: jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --stdout
+        run: jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --ExecutePreprocessor.kernel_name=python3 --stdout
       # I just stole the rest of this code so don't ask me questions about it
       - name: Commit and push if content changed
         run: |-
