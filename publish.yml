@@ -40,6 +40,11 @@ jobs:
       - name: Download new browsers
         run: myenv/bin/playwright install
 
+      - name: Add Jekyll Exclude Config
+        run: |
+          echo "exclude:" >> _config.yml
+          echo "  - myenv" >> _config.yml
+
       - name: Run the scraping script
         run: myenv/bin/jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --ExecutePreprocessor.kernel_name="Python (myenv)" --stdout
 
