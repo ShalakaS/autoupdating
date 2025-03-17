@@ -20,6 +20,15 @@ jobs:
       - name: Clear previous cache
         run: rm -rf ~/.cache
 
+      - name: Install Git LFS
+      run: |
+        sudo apt-get update
+        sudo apt-get install git-lfs
+        git lfs install
+
+      - name: Pull LFS objects
+        run: git lfs pull
+
       - name: Install virtual environment and dependencies
         run: |
           python -m venv myenv
