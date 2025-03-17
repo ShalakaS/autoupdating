@@ -1,41 +1,91 @@
-# Call this whatever you want
 name: AQIscrape
 
-# When does it get run?
 on:
-  # workflow_dispatch means "I can click a button and force it to run"
   workflow_dispatch:
-  # schedule/cron means "on a set schedule"
   schedule:
-    - cron: '* */12 * * *'
-permissions:
-  contents: write
+    - cron: '*/5 * * * *'
+
 jobs:
   scrape:
-    # For some reason, we run love versions of linux
     runs-on: ubuntu-latest
     steps:
-      # Download all of the code from your repo
       - name: Check out this repo
         uses: actions/checkout@v2
-      # Set up Python 3.9
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-      - name: Install necessary Python packages
-        run: pip install pandas jupyter lxml playwright beautifulsoup4 requests
-      - name: download new browsers
-        run: playwright install
-      # MAKE SURE YOUR SCRAPER FILENAME MATCHES THE FILENAME HERE!!
+
+      - name: Clear previous cache
+        run: rm -rf ~/.cache
+
+      - name: Install virtual environment and dependencies
+        run: |
+          python -m venv myenv
+          source myenv/bin/activate
+          pip install --upgrade pip
+          pip install pandas jupyter lxml playwright beautifulsoup4 requests
+          pip install ipykernel
+          python -m ipykernel install --user --name=myenv
+
+      - name: Download new browsers
+        run: |
+          source myenv/bin/activate
+          playwright install
+
       - name: Run the scraping script
-        run: jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --stdout
-      # I just stole the rest of this code so don't ask me questions about it
+        run: |
+          source myenv/bin/activate
+          jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --ExecutePreprocessor.kernel_name=myenv --stdout
+
       - name: Commit and push if content changed
-        run: |-
+        run: |
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
           git add -A
           timestamp=$(date -u)
           git commit -m "Latest data: ${timestamp}" || exit 0
           git push
+
+
+
+# # Call this whatever you want
+# name: AQIscrape
+
+# # When does it get run?
+# on:
+#   # workflow_dispatch means "I can click a button and force it to run"
+#   workflow_dispatch:
+#   # schedule/cron means "on a set schedule"
+#   schedule:
+#     - cron: '0 */6 * * *'
+# jobs:
+#   scrape:
+#     # For some reason, we run love versions of linux
+#     runs-on: ubuntu-latest
+#     steps:
+#       # Download all of the code from your repo
+#       - name: Check out this repo
+#         uses: actions/checkout@v2
+#       # Set up Python 3.9
+#       - name: Set up Python
+#         uses: actions/setup-python@v2
+#         with:
+#           python-version: '3.9'
+#       - name: Install necessary Python packages
+#         run: pip install pandas jupyter lxml playwright beautifulsoup4 requests re
+#       - name: download new browsers
+#         run: playwright install
+#       # MAKE SURE YOUR SCRAPER FILENAME MATCHES THE FILENAME HERE!!
+#       - name: Run the scraping script
+#         run: jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --stdout
+#       # I just stole the rest of this code so don't ask me questions about it
+#       - name: Commit and push if content changed
+#         run: |-
+#           git config user.name "Automated"
+#           git config user.email "actions@users.noreply.github.com"
+#           git add -A
+#           timestamp=$(date -u)
+#           git commit -m "Latest data: ${timestamp}" || exit 0
+#           git push
