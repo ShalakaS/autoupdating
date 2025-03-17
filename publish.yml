@@ -21,10 +21,10 @@ jobs:
         run: rm -rf ~/.cache
 
       - name: Install Git LFS
-      run: |
-        sudo apt-get update
-        sudo apt-get install git-lfs
-        git lfs install
+        run: |
+          sudo apt-get update
+          sudo apt-get install git-lfs
+          git lfs install
 
       - name: Pull LFS objects
         run: git lfs pull
@@ -32,21 +32,16 @@ jobs:
       - name: Install virtual environment and dependencies
         run: |
           python -m venv myenv
-          source myenv/bin/activate
-          pip install --upgrade pip
-          pip install pandas jupyter lxml playwright beautifulsoup4 requests
-          pip install ipykernel
-          python -m ipykernel install --user --name=myenv
+          myenv/bin/pip install --upgrade pip
+          myenv/bin/pip install pandas jupyter lxml playwright beautifulsoup4 requests
+          myenv/bin/pip install ipykernel
+          myenv/bin/python -m ipykernel install --user --name=myenv --display-name "Python (myenv)"
 
       - name: Download new browsers
-        run: |
-          source myenv/bin/activate
-          playwright install
+        run: myenv/bin/playwright install
 
       - name: Run the scraping script
-        run: |
-          source myenv/bin/activate
-          jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --ExecutePreprocessor.kernel_name=myenv --stdout
+        run: myenv/bin/jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --ExecutePreprocessor.kernel_name="Python (myenv)" --stdout
 
       - name: Commit and push if content changed
         run: |
