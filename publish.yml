@@ -52,8 +52,6 @@ jobs:
           git commit -m "Latest data: ${timestamp}" || exit 0
           git push
 
-
-
 # # Call this whatever you want
 # name: AQIscrape
 
