@@ -15,7 +15,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.9'
+          python-version: '3.11'  # Updated to system Python
 
       - name: Clear previous cache
         run: rm -rf ~/.cache
@@ -29,16 +29,13 @@ jobs:
       - name: Pull LFS objects
         run: git lfs pull
 
-      - name: Install virtual environment and dependencies
+      - name: Install dependencies
         run: |
-          python -m venv myenv
-          myenv/bin/pip install --upgrade pip
-          myenv/bin/pip install pandas jupyter lxml playwright beautifulsoup4 requests
-          myenv/bin/pip install ipykernel
-          myenv/bin/python -m ipykernel install --user --name=myenv --display-name "Python (myenv)"
+          pip install --upgrade pip
+          pip install pandas jupyter lxml playwright beautifulsoup4 requests ipykernel
 
       - name: Download new browsers
-        run: myenv/bin/playwright install
+        run: playwright install
 
       - name: Add Jekyll Exclude Config
         run: |
@@ -46,7 +43,7 @@ jobs:
           echo "  - myenv" >> _config.yml
 
       - name: Run the scraping script
-        run: myenv/bin/jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --ExecutePreprocessor.kernel_name="Python (myenv)" --stdout
+        run: jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --ExecutePreprocessor.kernel_name=python3 --stdout
 
       - name: Commit and push if content changed
         run: |
