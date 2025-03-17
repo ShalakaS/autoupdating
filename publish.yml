@@ -17,6 +17,9 @@ jobs:
         with:
           python-version: '3.9'
 
+      - name: Clear previous cache
+        run: rm -rf ~/.cache
+
       - name: Install virtual environment and dependencies
         run: |
           python -m venv myenv
