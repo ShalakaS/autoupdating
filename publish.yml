@@ -32,23 +32,18 @@ jobs:
           playwright install
 
       - name: Run the scraping script
-<<<<<<< HEAD
         run: |
           source myenv/bin/activate
-          jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --stdout
+          jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --ExecutePreprocessor.kernel_name=myenv --stdout
 
-=======
-        run: jupyter nbconvert --to notebook --execute "indian_aqi_tracker.ipynb" --ExecutePreprocessor.kernel_name=python3 --stdout
-      # I just stole the rest of this code so don't ask me questions about it
       - name: Commit and push if content changed
-        run: |-
+        run: |
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
           git add -A
           timestamp=$(date -u)
           git commit -m "Latest data: ${timestamp}" || exit 0
           git push
-
 
 
 
