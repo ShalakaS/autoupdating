@@ -1,1 +1,5 @@
 _site/
+myenv/
+venv/
+*.pyc
+__pycache__/
