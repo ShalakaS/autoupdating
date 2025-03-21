@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="icon" href="smog-solid.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Hourly AQI of Major Indian Cities </title>
+    <title> Daily AQI of Major Indian Regions </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <style>
         .container {
@@ -15,35 +15,81 @@
           height: 170px;
           width: 400px;
         }
+
+        .footer-note {
+        font-size: 10px;
+        color: #666;
+        font-style: italic;
+      }
+
+        body {
+          background-color: #e6f2ff; /* light blue */
+          margin: 0;
+          padding: 0;
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .footer {
+          background-color: #e6f2ff;
+        }
+        .headline {
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-size: 42px;
+        }
+
+        .map_headline {
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-size: 25px;
+        }
+
+        .hr_line {
+          background-color: black
+        }
     </style>
   </head>
   <body>
   <section class="section">
     <div class="container text-align-center">
-      <h1 class="title">
-        AQI update of major Indian cities
+      <h1 class="headline">
+        Daily AQI Update of Major Indian Cities
       </h1>
-      <h6>Shalaka Shinde</h6>
-      <hr>
+      <h6>Shalaka Shinde | <a href="https://github.com/ShalakaS/autoupdating">Github</a></h6>
+      <hr class="hr_line">
       <br>
       <div class="columns">
-      <div class="column is-one-third"><img src="AQI_image.png"></div>
+        <!-- <div class="column is-one-third"><img src="AQI_image.png"></div> -->
       <div class="column is-two-third">
       <p class="subtitle">
-        Data recorded and maintained by <strong>Indian Institute of Tropical Meteorology </strong> as part of Air Quality Early Warning System (AQEWS).
+        This map visualised the air quality index data published daily by the <strong>Central Pollution Control Board</strong> of India. The map is up-to the date you visit this page.
       </p>
+    
+      <iframe src="daily_map.html" width="100%" height=700px> </iframe>
+      <p class="footer-note">Zoom in at region of interest. In case of a city with multiple monitoring locations, average value is used to indicate air quality. The data is provided by different agencies and collected by the Central  Pollution Control Board of India.</p>
       <div class="content">
-        <p>This data set updates hourly. However, the maintenance is inconsistent. The levels for Delhi, capital of India, alone are alarming enough to take note of the data.The warning system is basis for seasonal as well as year-round policies to tackle pollution in the capital city.</p>
-      </div>
-      </div>
+        <p>As 2025 rolled in, a report from IQAir - a Swiss tech company that monitors air quality around the world and sells products to combat poor air quality - threw spotlight on Byrnihat, a metropolitan region in the Northeastern state of India. The <a href="https://www.iqair.com/us/newsroom/waqr-2024-pr">2024 IQAir World Air Quality Report</a> also concluded that the Central and South Asia region was home to seven of the most polluted cities of the world.</p>
 
-      </div>
-      <iframe title="AQI of major Indian cities" aria-label="Table" id="datawrapper-chart-taMeQ" src="https://datawrapper.dwcdn.net/taMeQ/6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="489" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
-      </script>
+        <p>With sustained conversation about cities like Delhi and Bangalore, the industrial town of Byrnith had barely ever made it to the national media coverage about rising pollution levels.</p>
 
+        <p>The region, however, has consistantly shown up in the CPCB daily data to have some of the poorest air quality index for the past three years at least. The board started publishing data from Byrnihat in their daily readings sometime in mid 2022. But it evaded media attention, and there public attention, until the Swiss company published their report.</p>
+
+        <p>In an effort to avoid missing such crucial information, this platform will record machine readable daily data from the CPCB daily average and further provide a weekly, month, and quarterly average of regions that show consistantly high AQI in that respective week, month, or quarter. The data is publicly available. For those who wish to look for a particular day's data, it is available on the github page of this project.</p>
+        <p>This data is not exhaustive and does not represent all regions in the country. The CPCB published data for not more than 99 to 135 regions back in 2020. The number rose to 170 in 2021, 210 in 2022, 280 in 2023, and 289 by the end of 2023. As of March 20, 2025, the board publishes data from 292 regions.</p>
+      
+        <p>Not all the recording stations send their daily data to CPCB consistently. On any given day, the data is published with a caveat of missing entries due to lack of sufficient data. This platform will also keep a track of regions and corresponding stations that do not provide data on any given day. It will also provide a weekly, monthly, and quarterly assessment of the number of days a particular region has not provided data.</p>
+       
+      
+      <h2 class="map_headline">There is Insufficient Data From These Regions Today</h2>
+      <iframe src="no_data_map.html" width="100%" height=700px> </iframe>
+      <p class="footer-note">Zoom in at region of interest. In case of a city with multiple monitoring locations, average value is used to indicate air quality. The data is provided by different agencies and collected by the Central  Pollution Control Board of India.</p>
+
+      <p>Please feel free to reach out for easier access to the data files.</p>
     </div>
+  </div>
+</div>
+</div> 
   </section>
   </body>
+
+  <hr class="hr_line">
 
   <footer class="footer">
     <div class="content has-text-centered">
