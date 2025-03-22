@@ -25,6 +25,12 @@ jobs:
           python-version: '3.11'
       - name: Install necessary Python packages
         run: pip install pandas jupyter lxml requests pdfplumber certifi folium googlemaps pytz python-dotenv openpyxl
+      
+      - name: Install Jupyter kernel for Python 3.11
+        run: python -m ipykernel install --user --name=python3.11
+
+      - name: Verify kernel installation
+        run: jupyter kernelspec list
       # MAKE SURE YOUR SCRAPER FILENAME MATCHES THE FILENAME HERE!!
       - name: Run the scraping script
         run: jupyter nbconvert --to notebook --execute "aqi_tracker_all_cities.ipynb" --output executed_notebook.ipynb #--stdout
