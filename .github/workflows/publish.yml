@@ -28,6 +28,9 @@ jobs:
       
       - name: Install Jupyter kernel for Python 3.11
         run: python -m ipykernel install --user --name=python3.11
+      
+      - name: Upgrade certifi
+        run: pip install --upgrade certifi
 
       - name: Verify kernel installation
         run: jupyter kernelspec list
