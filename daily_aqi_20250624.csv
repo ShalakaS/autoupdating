@@ -1,0 +1,414 @@
+City,Air_Quality,Index_Value,Prominent_Pollutant,No._of_Stations_Participated_Total_Stations,State
+Nandesari,Moderate,164,"PM
+2.5",1/1,Gujarat
+Mandi Gobindgarh,Moderate,162,"PM
+2.5",1/1,Punjab
+Bhilwara,Moderate,159,"PM
+2.5",1/1,Rajasthan
+Churu,Moderate,146,"PM
+10",1/1,Rajasthan
+Jhunjhunu,Moderate,142,"PM
+10",1/1,Rajasthan
+Baddi,Moderate,137,"PM
+10",1/1,Himachal Pradesh
+Tonk,Moderate,125,"PM
+10",1/1,Rajasthan
+Byrnihat,Moderate,125,"PM
+2.5",1/1,Meghalaya
+Pali,Moderate,124,"PM
+10",1/1,Rajasthan
+Sri Ganganagar,Moderate,121,"PM
+10",1/1,Rajasthan
+Ludhiana,Moderate,116,"PM
+10",1/1,Punjab
+Jaisalmer,Moderate,114,"PM
+10",1/1,Rajasthan
+Samastipur,Moderate,114,"PM
+2.5",1/1,Bihar
+Dausa,Moderate,111,"PM
+10",1/1,Rajasthan
+Imphal,Moderate,108,"SO
+2",1/2,Manipur
+Patna,Moderate,107,"PM , O , PM
+10 3 2.5",6/6,Bihar
+Barmer,Moderate,102,"PM
+10",1/1,Rajasthan
+Jalore,Satisfactory,98,"PM
+10",1/1,Rajasthan
+Nagaur,Satisfactory,97,"PM
+10",1/1,Rajasthan
+Delhi,Satisfactory,95,"PM
+10",37/39,Delhi
+Bathinda,Satisfactory,93,CO,1/1,Punjab
+Gorakhpur,Satisfactory,92,"PM
+2.5",1/1,Uttar Pradesh
+Noida,Satisfactory,92,"PM
+10",4/4,Uttar Pradesh
+Greater Noida,Satisfactory,92,"PM
+10",2/2,Uttar Pradesh
+Rourkela,Satisfactory,92,"PM , PM
+10 2.5",2/3,Odisha
+Gurugram,Satisfactory,91,"PM
+10",1/4,Haryana
+Bareilly,Satisfactory,91,"SO
+2",1/2,Uttar Pradesh
+Panchgaon,Satisfactory,90,"PM
+10",1/1,Haryana
+Amritsar,Satisfactory,90,"PM
+2.5",1/1,Punjab
+Begusarai,Satisfactory,90,"NO
+2",1/1,Bihar
+Jaipur,Satisfactory,89,"PM , PM
+10 2.5",6/6,Rajasthan
+Suakati,Satisfactory,88,"PM
+10",1/1,Odisha
+Ghaziabad,Satisfactory,87,"PM
+10",4/4,Uttar Pradesh
+Visakhapatnam,Satisfactory,87,"PM
+10",1/1,Andhra Pradesh
+Kota,Satisfactory,86,"PM
+10",3/3,Rajasthan
+Hajipur,Satisfactory,83,"O
+3",1/1,Bihar
+Baghpat,Satisfactory,83,"PM
+10",1/2,Uttar Pradesh
+Angul,Satisfactory,82,CO,1/1,Odisha
+Karauli,Satisfactory,82,"PM
+10",1/1,Rajasthan
+Katihar,Satisfactory,82,"PM
+2.5",1/1,Bihar
+Bhiwadi,Satisfactory,82,"PM
+10",2/2,Rajasthan
+Gummidipoondi,Satisfactory,82,"PM
+10",1/1,Tamil Nadu
+Chennai,Satisfactory,81,"PM , O
+10 3",7/9,Tamil Nadu
+Jodhpur,Satisfactory,81,"PM , PM
+10 2.5",5/5,Rajasthan
+Barbil,Satisfactory,81,"PM
+2.5",1/1,Odisha
+Durgapur,Satisfactory,80,"PM
+10",3/3,West Bengal
+Brajrajnagar,Satisfactory,79,CO,1/1,Odisha
+Bhubaneswar,Satisfactory,77,CO,1/2,Odisha
+Udaipur,Satisfactory,77,"PM
+10",1/1,Rajasthan
+Ajmer,Satisfactory,76,"PM
+10",1/1,Rajasthan
+Gandhinagar,Satisfactory,76,"PM
+10",2/3,Gujarat
+Byasanagar,Satisfactory,75,CO,1/1,Odisha
+Dhanbad,Satisfactory,74,"PM
+10",1/2,Jharkhand
+Chittoor,Satisfactory,73,"PM
+2.5",1/1,Andhra Pradesh
+Sirohi,Satisfactory,73,"PM
+10",1/1,Rajasthan
+Kanpur,Satisfactory,72,"CO, PM , O
+10 3",3/4,Uttar Pradesh
+Lucknow,Satisfactory,72,"CO, PM , PM
+10 2.5",6/6,Uttar Pradesh
+Banswara,Satisfactory,70,"PM
+10",1/1,Rajasthan
+Alwar,Satisfactory,70,CO,1/1,Rajasthan
+Hanumangarh,Satisfactory,70,"PM
+10",1/1,Rajasthan
+Sikar,Satisfactory,70,"PM
+10",1/1,Rajasthan
+Badlapur,Satisfactory,68,"PM
+10",1/1,Maharashtra
+Khurja,Satisfactory,68,"PM
+10",1/1,Uttar Pradesh
+Rajsamand,Satisfactory,68,"PM
+10",1/1,Rajasthan
+Baran,Satisfactory,68,"O
+3",1/1,Rajasthan
+Muzaffarnagar,Satisfactory,67,"PM
+10",1/1,Uttar Pradesh
+Vapi,Satisfactory,67,"PM
+10",1/1,Gujarat
+Rajgir,Satisfactory,67,"PM
+10",1/1,Bihar
+Tensa,Satisfactory,65,"O
+3",1/1,Odisha
+Kohima,Satisfactory,65,"SO
+2",1/1,Nagaland
+Hyderabad,Satisfactory,65,"PM
+10",12/14,Telangana
+Chandigarh,Satisfactory,64,"PM
+10",2/3,Chandigarh
+Anantapur,Satisfactory,63,"PM
+2.5",1/1,Andhra Pradesh
+Dungarpur,Satisfactory,63,"PM
+10",1/1,Rajasthan
+Meerut,Satisfactory,63,"PM
+10",3/3,Uttar Pradesh
+Korba,Satisfactory,63,"PM
+10",1/2,Chhattisgarh
+Balasore,Satisfactory,63,"PM
+10",1/1,Odisha
+Nagaon,Satisfactory,62,"PM
+2.5",1/1,Assam
+Bengaluru,Satisfactory,62,"PM
+10",13/14,Karnataka
+Ahmedabad,Satisfactory,60,"PM , NO
+10 2",8/9,Gujarat
+Kadapa,Satisfactory,60,"PM
+2.5",1/1,Andhra Pradesh
+Pimpri-Chinchwad,Satisfactory,60,"CO, PM
+10",4/4,Maharashtra
+Raipur,Satisfactory,59,"PM
+10",3/4,Chhattisgarh
+Ranipet,Satisfactory,59,"PM
+2.5",1/1,Tamil Nadu
+Khanna,Satisfactory,59,"O
+3",1/1,Punjab
+Ulhasnagar,Satisfactory,58,"PM
+10",1/1,Maharashtra
+Mandideep,Satisfactory,58,"O
+3",1/1,Madhya Pradesh
+Jalandhar,Satisfactory,58,CO,1/1,Punjab
+Vijayawada,Satisfactory,58,"PM
+10",2/4,Andhra Pradesh
+Howrah,Satisfactory,57,"CO, PM , O
+10 3",5/5,West Bengal
+Dharwad,Satisfactory,57,"PM
+10",1/1,Karnataka
+Thiruvananthapuram,Satisfactory,56,"PM
+10",2/2,Kerala
+Pithampur,Satisfactory,56,"PM
+10",1/1,Madhya Pradesh
+Bhiwandi,Satisfactory,56,"PM
+10",1/1,Maharashtra
+Jhalawar,Satisfactory,56,"PM
+10",1/1,Rajasthan
+Vatva,Satisfactory,55,"PM
+10",1/1,Gujarat
+Agra,Satisfactory,55,"PM , PM
+10 2.5",6/6,Uttar Pradesh
+Bhopal,Satisfactory,55,"CO, PM
+10",2/3,Madhya Pradesh
+Dhule,Satisfactory,55,"PM
+10",1/1,Maharashtra
+Dewas,Satisfactory,54,"PM
+10",1/1,Madhya Pradesh
+Bhagalpur,Satisfactory,54,"PM , SO
+10 2",2/2,Bihar
+Kalyan,Satisfactory,54,"PM
+10",1/2,Maharashtra
+Bulandshahr,Satisfactory,54,"PM
+10",1/1,Uttar Pradesh
+Asansol,Satisfactory,54,"PM , PM
+10 2.5",4/4,West Bengal
+Thoothukudi,Satisfactory,54,"PM
+10",1/1,Tamil Nadu
+Talcher,Satisfactory,54,"PM
+10",1/1,Odisha
+Tirupati,Satisfactory,53,"PM
+2.5",1/1,Andhra Pradesh
+Jalna,Satisfactory,53,"PM
+10",1/1,Maharashtra
+Bharatpur,Satisfactory,53,"O
+3",1/1,Rajasthan
+Baripada,Satisfactory,53,CO,1/1,Odisha
+Araria,Satisfactory,53,"PM
+10",1/1,Bihar
+Bileipada,Satisfactory,53,"PM
+10",1/1,Odisha
+Pune,Satisfactory,53,"CO, O
+3",8/13,Maharashtra
+Sawai Madhopur,Satisfactory,53,CO,1/1,Rajasthan
+Siliguri,Satisfactory,52,CO,1/1,West Bengal
+Mumbai,Satisfactory,52,"PM
+10",25/30,Maharashtra
+Moradabad,Satisfactory,52,"CO, SO
+2",5/7,Uttar Pradesh
+Mangalore,Satisfactory,52,"PM
+10",1/1,Karnataka
+Kalaburagi,Satisfactory,52,"PM
+10",2/2,Karnataka
+Kannur,Satisfactory,52,"PM
+2.5",1/1,Kerala
+Ariyalur,Satisfactory,52,"PM
+10",1/1,Tamil Nadu
+Indore,Satisfactory,51,"PM , PM , SO
+10 2.5 2",5/6,Madhya Pradesh
+Silchar,Satisfactory,51,"PM
+10",1/1,Assam
+Bundi,Good,50,"PM
+10",1/1,Rajasthan
+Thane,Good,50,"PM
+10",2/2,Maharashtra
+Nayagarh,Good,50,"PM
+10",1/1,Odisha
+Chandrapur,Good,50,CO,2/2,Maharashtra
+Malegaon,Good,49,"PM
+10",1/1,Maharashtra
+Muzaffarpur,Good,49,"CO, PM
+2.5",3/3,Bihar
+Tumakuru,Good,49,"PM
+10",1/1,Karnataka
+Prayagraj,Good,48,"PM , SO
+10 2",3/3,Uttar Pradesh
+Virar,Good,48,CO,1/1,Maharashtra
+Hapur,Good,48,"PM
+10",1/1,Uttar Pradesh
+Boisar,Good,48,"PM
+2.5",1/1,Maharashtra
+Buxar,Good,48,"O
+3",1/1,Bihar
+Nashik,Good,47,"PM
+10",4/4,Maharashtra
+Salem,Good,47,"SO
+2",1/1,Tamil Nadu
+Vijayapura,Good,47,"PM
+10",1/1,Karnataka
+Navi Mumbai,Good,47,"PM , PM
+10 2.5",6/8,Maharashtra
+Coimbatore,Good,46,CO,1/2,Tamil Nadu
+Kunjemura,Good,46,"PM
+10",1/1,Chhattisgarh
+Rajamahendravaram,Good,46,"PM
+10",1/1,Andhra Pradesh
+Dholpur,Good,46,"PM
+10",1/1,Rajasthan
+Sagar,Good,45,"PM
+10",1/2,Madhya Pradesh
+Ahmednagar,Good,45,"PM
+10",1/1,Maharashtra
+Barrackpore,Good,45,CO,1/1,West Bengal
+Solapur,Good,44,"PM
+10",2/3,Maharashtra
+Pratapgarh,Good,44,"PM
+10",1/1,Uttar Pradesh
+Thrissur,Good,43,"PM
+2.5",1/1,Kerala
+Nagpur,Good,43,"CO, PM
+10",4/4,Maharashtra
+Dindigul,Good,43,"PM
+10",1/1,Tamil Nadu
+Chamarajanagar,Good,43,"PM
+10",1/1,Karnataka
+Thanjavur,Good,43,"PM
+10",1/1,Tamil Nadu
+Tiruchirappalli,Good,43,"PM
+10",1/1,Tamil Nadu
+Hosur,Good,42,"SO
+2",1/1,Tamil Nadu
+Motihari,Good,42,CO,1/1,Bihar
+Rairangpur,Good,42,"PM
+10",1/1,Odisha
+Bilaspur,Good,42,CO,1/1,Chhattisgarh
+Latur,Good,42,"O
+3",1/1,Maharashtra
+Nanded,Good,42,"O
+3",1/1,Maharashtra
+Purnia,Good,42,"PM
+2.5",1/1,Bihar
+Surat,Good,41,CO,1/1,Gujarat
+Jhansi,Good,41,"SO
+2",1/1,Uttar Pradesh
+Mahad,Good,41,"O
+3",1/1,Maharashtra
+"Aurangabad
+(Maharashtra)",Good,41,"PM
+10",3/3,Maharashtra
+Ramanathapuram,Good,41,"PM
+10",1/1,Tamil Nadu
+Tirunelveli,Good,40,CO,1/1,Tamil Nadu
+Ratlam,Good,40,"PM
+10",1/1,Madhya Pradesh
+Katni,Good,40,"PM
+10",1/1,Madhya Pradesh
+Amaravati,Good,40,"NO
+2",1/1,Andhra Pradesh
+Gaya,Good,40,"PM , PM
+10 2.5",2/3,Bihar
+Belapur,Good,40,"O
+3",1/1,Maharashtra
+Akola,Good,39,"PM
+10",1/1,Maharashtra
+Jalgaon,Good,39,"PM
+10",1/1,Maharashtra
+Kolkata,Good,39,"PM , PM , NO
+10 2.5 2",5/7,West Bengal
+Davanagere,Good,39,"PM
+2.5",1/1,Karnataka
+Cuttack,Good,39,"PM
+10",1/1,Odisha
+Mira-Bhayandar,Good,38,"PM
+10",1/1,Maharashtra
+Hubballi,Good,38,"PM
+10",1/2,Karnataka
+Tirumala,Good,38,"PM
+10",1/1,Andhra Pradesh
+Chittorgarh,Good,38,"PM
+10",1/1,Rajasthan
+Virudhunagar,Good,37,"PM
+10",1/1,Tamil Nadu
+Jabalpur,Good,37,"SO , NO
+2 2",3/4,Madhya Pradesh
+Gwalior,Good,36,"PM , O
+10 3",3/4,Madhya Pradesh
+Varanasi,Good,36,"PM , SO
+10 2",4/4,Uttar Pradesh
+Puducherry,Good,36,"PM
+10",1/1,Puducherry
+Mysuru,Good,35,"PM
+10",1/1,Karnataka
+Haldia,Good,35,"PM
+10",1/1,West Bengal
+Pudukottai,Good,34,"PM
+10",1/1,Tamil Nadu
+Vellore,Good,34,"PM
+10",1/1,Tamil Nadu
+Ooty,Good,34,"PM
+10",1/1,Tamil Nadu
+Yadgir,Good,33,"NO
+2",1/1,Karnataka
+Karur,Good,33,"PM
+10",1/1,Tamil Nadu
+Madurai,Good,33,"PM
+10",1/1,Tamil Nadu
+Firozabad,Good,32,"PM
+10",2/2,Uttar Pradesh
+Perundurai,Good,32,"PM
+2.5",1/1,Tamil Nadu
+Tirupur,Good,32,"PM
+10",1/1,Tamil Nadu
+Guwahati,Good,31,"PM , SO
+2.5 2",3/4,Assam
+Amravati,Good,31,"PM
+10",2/2,Maharashtra
+Chhal,Good,31,"PM
+10",1/1,Chhattisgarh
+Keonjhar,Good,31,"SO
+2",1/1,Odisha
+Kashipur,Good,31,"PM
+2.5",1/1,Uttarakhand
+Kolhapur,Good,29,"PM
+10",1/2,Maharashtra
+Sivasagar,Good,29,"PM
+10",1/1,Assam
+Chikkaballapur,Good,28,"O
+3",1/1,Karnataka
+Bhilai,Good,28,"CO, O
+3",3/3,Chhattisgarh
+Chikkamagaluru,Good,28,"O
+3",1/1,Karnataka
+Munger,Good,28,CO,1/1,Bihar
+Tumidih,Good,26,"PM
+10",1/1,Chhattisgarh
+Cuddalore,Good,26,"PM , PM
+10 2.5",2/2,Tamil Nadu
+Hassan,Good,25,"PM
+2.5",1/1,Karnataka
+Damoh,Good,23,CO,1/1,Madhya Pradesh
+Dehradun,Good,22,"PM
+10",1/1,Uttarakhand
+Madikeri,Good,19,"PM
+2.5",1/1,Karnataka
+Aizawl,Good,18,"PM
+10",1/1,Mizoram
+Shillong,Good,15,"PM
+2.5",1/2,Meghalaya
