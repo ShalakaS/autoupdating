@@ -1,0 +1,486 @@
+City,Air_Quality,Index_Value,Prominent_Pollutant,No._of_Stations_Participated_Total_Stations,State
+Byrnihat (Meghalaya),Poor,253,"PM
+2.5",1/1,
+Hisar,Poor,224,"PM
+2.5",1/1,
+Rupnagar,Poor,210,"PM
+2.5",1/1,
+Ballabgarh,Moderate,182,"PM
+10",1/1,
+Pali,Moderate,177,"PM
+10",1/1,
+Hajipur,Moderate,169,"PM
+2.5",1/1,
+Angul,Moderate,161,"PM
+10",1/1,
+Meerut,Moderate,157,"O
+3",4/4,
+Greater Noida,Moderate,155,"O
+3",2/2,
+Siliguri,Moderate,153,"NO
+2",1/1,
+Saharsa,Moderate,151,"PM
+2.5",1/1,
+Kanpur,Moderate,150,"PM , PM
+10 2.5",3/4,
+Visakhapatnam,Moderate,145,"PM
+10",1/1,
+Panipat,Moderate,141,"PM
+10",1/1,
+Ghaziabad,Moderate,140,"PM , O
+10 3",6/6,
+Noida,Moderate,138,"O
+3",4/4,
+Sonipat,Moderate,132,"PM
+10",1/1,
+Sirsa,Moderate,131,"PM
+2.5",1/1,
+Chhapra,Moderate,129,"PM
+10",1/1,
+Bulandshahr,Moderate,129,"PM
+10",1/1,
+Jalandhar,Moderate,124,"PM
+2.5",1/1,
+Agartala,Moderate,123,"PM
+10",1/2,
+Baghpat,Moderate,123,"PM
+10",1/1,
+Kishanganj,Moderate,121,"PM
+2.5",1/1,
+Bhiwadi,Moderate,121,"PM
+10",2/2,
+Lucknow,Moderate,120,"PM , PM
+10 2.5",6/6,
+Milupara,Moderate,119,"O
+3",1/1,
+Muzaffarpur,Moderate,118,"PM
+2.5",2/3,
+Singrauli,Moderate,115,"PM
+10",1/1,
+Talcher,Moderate,115,"PM
+2.5",1/1,
+Vatva,Moderate,112,"PM
+10",1/1,
+Barbil,Moderate,111,"PM
+10",1/1,
+Mandi Gobindgarh,Moderate,110,"PM
+10",1/1,
+Jalore,Moderate,110,"PM
+10",1/1,
+Gummidipoondi,Moderate,109,"PM
+10",1/1,
+Dhanbad,Moderate,108,"SO
+2",1/2,
+Bharatpur,Moderate,108,"O
+3",1/1,
+Begusarai,Moderate,107,"PM
+10",1/1,
+Panchkula,Moderate,106,"PM
+2.5",1/1,
+Amaravati,Moderate,106,"PM
+10",1/1,
+Sri Ganganagar,Moderate,106,"O
+3",1/1,
+Udaipur,Moderate,105,"PM
+10",1/1,
+Rishikesh,Moderate,105,"O
+3",1/1,
+Dausa,Moderate,104,"PM
+10",1/1,
+Raebareli,Moderate,103,"O
+3",1/1,
+Rajamahendravaram,Moderate,103,"PM
+10",1/1,
+Aurangabad (Bihar),Moderate,102,CO,1/1,
+Mandikhera,Moderate,101,CO,1/1,
+Mahad,Moderate,101,"PM
+2.5",1/1,
+Jaipur,Moderate,101,"PM , O
+10 3",6/6,
+Tumidih,Satisfactory,99,"O
+3",1/1,
+Bhiwani,Satisfactory,98,"PM
+2.5",1/1,
+Faridabad,Satisfactory,98,"PM , PM
+10 2.5",3/4,
+Hapur,Satisfactory,98,"PM
+10",1/1,
+Pithampur,Satisfactory,98,"PM
+10",1/1,
+Barmer,Satisfactory,96,"PM
+10",1/1,
+Varanasi,Satisfactory,96,"PM
+10",3/4,
+Muzaffarnagar,Satisfactory,96,"PM
+10",1/1,
+Banswara,Satisfactory,96,"PM
+10",1/1,
+Vapi,Satisfactory,95,"PM
+10",1/1,
+Baran,Satisfactory,95,"O
+3",1/1,
+Dharwad,Satisfactory,94,"PM
+10",1/1,
+Bikaner,Satisfactory,93,"PM
+10",1/1,
+Delhi,Satisfactory,92,"PM , O
+10 3",44/46,
+Bilaspur,Satisfactory,92,"PM
+10",1/1,
+Bareilly,Satisfactory,92,"SO
+2",1/2,
+Jodhpur,Satisfactory,92,"PM
+10",5/5,
+Gaya,Satisfactory,92,"PM , PM
+10 2.5",3/3,
+Patna,Satisfactory,92,"PM
+10",6/6,
+Kurukshetra,Satisfactory,91,"PM
+10",1/1,
+Gurugram,Satisfactory,90,"PM , PM
+10 2.5",4/4,
+Tirumala,Satisfactory,90,"PM
+10",1/1,
+Sawai Madhopur,Satisfactory,90,"O
+3",1/1,
+Amritsar,Satisfactory,90,"NO
+2",1/1,
+Perundurai,Satisfactory,89,"PM
+10",1/1,
+Bahadurgarh,Satisfactory,88,"PM
+2.5",1/1,
+Jorapokhar,Satisfactory,88,"PM
+10",1/1,
+Nagaur,Satisfactory,88,"PM
+10",1/1,
+Gwalior,Satisfactory,88,"PM , O
+10 3",3/4,
+Pratapgarh,Satisfactory,88,"PM
+10",1/1,
+Patiala,Satisfactory,87,"PM
+10",1/1,
+Chennai,Satisfactory,87,"PM , CO
+10",7/9,
+Bengaluru,Satisfactory,87,"PM
+10",7/14,
+Bhagalpur,Satisfactory,86,"PM
+10",2/2,
+Araria,Satisfactory,86,"PM
+10",1/1,
+Katni,Satisfactory,85,"O
+3",1/1,
+Karauli,Satisfactory,85,"O
+3",1/1,
+Bhilwara,Satisfactory,85,"O
+3",1/1,
+Vadodara,Satisfactory,85,CO,1/1,
+Chittorgarh,Satisfactory,85,"PM
+10",1/1,
+Byrnihat (Assam),Satisfactory,84,"PM
+2.5",1/1,
+Palwal,Satisfactory,83,"PM
+10",1/1,
+Jhunjhunu,Satisfactory,83,"O
+3",1/1,
+Akola,Satisfactory,82,"PM
+10",1/1,
+Katihar,Satisfactory,82,"O
+3",1/1,
+Cuttack,Satisfactory,82,"O
+3",1/1,
+Chandrapur,Satisfactory,82,"PM
+10",2/2,
+Ambala,Satisfactory,82,"PM
+10",1/1,
+Tonk,Satisfactory,81,"O
+3",1/1,
+Howrah,Satisfactory,81,"PM , O
+10 3",5/5,
+Chhal,Satisfactory,81,"PM
+10",1/1,
+Ahmedabad,Satisfactory,81,"SO , PM
+2 10",8/9,
+Agra,Satisfactory,81,"PM , PM
+10 2.5",5/6,
+Manesar,Satisfactory,81,"PM
+2.5",1/1,
+Siwan,Satisfactory,80,"PM
+2.5",1/1,
+Dehradun,Satisfactory,80,"PM
+10",1/1,
+Ratlam,Satisfactory,80,"PM
+10",1/1,
+Gandhinagar,Satisfactory,79,"PM
+10",2/3,
+Suakati,Satisfactory,79,"PM
+10",1/1,
+Karnal,Satisfactory,79,"PM
+10",1/1,
+Chikkaballapur,Satisfactory,79,"PM
+10",1/1,
+Ludhiana,Satisfactory,79,"PM
+10",1/1,
+Bathinda,Satisfactory,78,CO,1/1,
+Gorakhpur,Satisfactory,78,"PM
+10",1/1,
+Rajkot,Satisfactory,78,CO,1/1,
+Prayagraj,Satisfactory,77,"PM
+10",3/3,
+Moradabad,Satisfactory,77,"PM
+10",6/6,
+Bhavnagar,Satisfactory,76,CO,1/1,
+Indore,Satisfactory,76,"NO , CO
+2",5/6,
+Churu,Satisfactory,76,"O
+3",1/1,
+Sikar,Satisfactory,76,"O
+3",1/1,
+Purnia,Satisfactory,75,"PM
+2.5",1/1,
+Rourkela,Satisfactory,75,"PM
+10",2/3,
+Rairangpur,Satisfactory,75,"PM
+10",1/1,
+Solapur,Satisfactory,75,"PM
+10",2/3,
+Ujjain,Satisfactory,74,"PM
+10",1/2,
+Chittoor,Satisfactory,73,"PM
+2.5",1/1,
+Hyderabad,Satisfactory,73,"PM
+10",11/14,
+Pimpri-Chinchwad,Satisfactory,73,"PM
+10",5/8,
+Mathura,Satisfactory,73,"PM
+10",1/1,
+Jhansi,Satisfactory,72,"PM
+2.5",1/1,
+Bhubaneswar,Satisfactory,72,"O
+3",2/2,
+Khanna,Satisfactory,72,"PM
+10",1/1,
+Nellore,Satisfactory,71,"PM
+10",1/1,
+Yadgir,Satisfactory,71,"PM
+10",1/1,
+Jabalpur,Satisfactory,71,"PM , O
+10 3",4/4,
+Chandigarh,Satisfactory,71,"PM , O
+10 3",3/3,
+Badlapur,Satisfactory,71,"PM
+10",1/1,
+Satna,Satisfactory,70,"PM
+10",1/1,
+Byasanagar,Satisfactory,70,"O
+3",1/1,
+Durgapur,Satisfactory,70,"PM , NO
+10 2",2/3,
+Pune,Satisfactory,70,"PM , CO
+10",7/9,
+Mandideep,Satisfactory,69,"PM
+2.5",1/1,
+Narnaul,Satisfactory,69,"PM
+10",1/1,
+Kota,Satisfactory,69,"PM
+10",3/3,
+Raipur,Satisfactory,69,"PM
+10",4/4,
+Baripada,Satisfactory,69,"PM
+10",1/1,
+Anantapur,Satisfactory,69,"PM
+2.5",1/1,
+Vijayawada,Satisfactory,69,"PM
+10",3/4,
+Dhule,Satisfactory,68,"PM
+10",1/1,
+Nagaon,Satisfactory,68,"PM
+2.5",1/1,
+Cuddalore,Satisfactory,68,"PM
+10",1/2,
+Bhiwandi,Satisfactory,68,"PM
+10",1/1,
+Thoothukudi,Satisfactory,67,"PM
+10",1/1,
+Kunjemura,Satisfactory,67,"PM
+10",1/1,
+Brajrajnagar,Satisfactory,67,"PM
+10",1/1,
+Tumakuru,Satisfactory,66,"PM
+10",1/1,
+Jaisalmer,Satisfactory,66,"PM
+10",1/1,
+Puducherry,Satisfactory,66,"O
+3",1/1,
+Rajsamand,Satisfactory,65,"PM
+10",1/1,
+Balasore,Satisfactory,65,"PM
+10",1/1,
+Mehsana,Satisfactory,64,CO,1/1,
+Thane,Satisfactory,64,"PM , PM
+10 2.5",2/2,
+Haldia,Satisfactory,64,"PM
+10",1/1,
+Machilipatnam,Satisfactory,64,"PM
+2.5",1/1,
+Khurja,Satisfactory,63,"PM
+10",1/1,
+Guwahati,Satisfactory,63,"PM , PM
+10 2.5",4/4,
+Tirupati,Satisfactory,63,"PM
+10",1/1,
+Maihar,Satisfactory,63,CO,1/1,
+Bundi,Satisfactory,62,"O
+3",1/1,
+Ajmer,Satisfactory,62,"PM
+10",1/1,
+"Aurangabad
+(Maharashtra)",Satisfactory,62,"PM , O , PM
+10 3 2.5",3/3,
+Yamuna Nagar,Satisfactory,62,"O
+3",1/1,
+Thrissur,Satisfactory,61,"PM
+10",1/1,
+Nagpur,Satisfactory,60,"PM , O
+10 3",4/4,
+Kolkata,Satisfactory,60,"PM , O
+10 3",7/7,
+Guntur,Satisfactory,60,"PM
+2.5",1/1,
+Navi Mumbai,Satisfactory,59,"PM
+10",5/8,
+Rajgir,Satisfactory,59,"PM
+2.5",1/1,
+Dholpur,Satisfactory,59,"PM
+10",1/1,
+Jhalawar,Satisfactory,58,"PM
+10",1/1,
+Ankleshwar,Satisfactory,58,"PM
+10",1/1,
+Bihar Sharif,Satisfactory,58,CO,1/1,
+Jalgaon,Satisfactory,58,"PM
+10",1/1,
+Kadapa,Satisfactory,57,"PM
+10",1/1,
+Mysuru,Satisfactory,57,"PM
+10",1/1,
+Coimbatore,Satisfactory,56,"PM
+2.5",2/2,
+Madurai,Satisfactory,56,"SO
+2",1/1,
+Thiruvananthapuram,Satisfactory,56,"PM
+10",2/2,
+Sagar,Satisfactory,55,"PM
+10",1/2,
+Bhopal,Satisfactory,55,"PM , O
+10 3",3/3,
+Damoh,Satisfactory,55,"PM
+10",1/1,
+Dharuhera,Satisfactory,55,"PM
+10",1/1,
+Asansol,Satisfactory,55,"SO , CO, PM
+2 2.5",3/4,
+Latur,Satisfactory,55,"PM
+10",1/1,
+Hanumangarh,Satisfactory,54,"PM
+10",1/1,
+Parbhani,Satisfactory,54,"PM
+10",1/1,
+Nanded,Satisfactory,54,"O
+3",1/1,
+Nandesari,Satisfactory,54,"PM
+10",1/1,
+Silchar,Satisfactory,53,"PM
+10",1/1,
+Arrah,Satisfactory,53,CO,1/1,
+Buxar,Satisfactory,53,"O
+3",1/1,
+Alwar,Satisfactory,52,"NO
+2",1/1,
+Amravati,Satisfactory,52,"PM
+10",2/2,
+Sivasagar,Satisfactory,52,"O
+3",1/1,
+Ulhasnagar,Satisfactory,52,"PM
+10",2/2,
+Jind,Satisfactory,52,"PM
+2.5",1/1,
+Mumbai,Satisfactory,51,"PM
+10",24/30,
+Bhilai,Satisfactory,51,"PM , O
+10 3",3/3,
+Bagalkot,Satisfactory,51,"PM
+10",1/1,
+Vrindavan,Satisfactory,51,"PM
+10",1/1,
+Barrackpore,Satisfactory,51,"PM
+10",1/1,
+Kaithal,Good,50,"SO
+2",1/1,
+Tensa,Good,50,"PM
+10",1/1,
+Ramanagara,Good,50,"PM
+10",1/1,
+Munger,Good,49,"PM
+2.5",1/1,
+Eluru,Good,49,"PM
+10",1/1,
+Surat,Good,48,"PM , CO
+10",2/2,
+Firozabad,Good,47,"PM
+10",1/2,
+Nashik,Good,47,"PM
+10",4/4,
+Keonjhar,Good,47,"PM
+10",1/1,
+Korba,Good,47,"PM
+10",1/2,
+Shivamogga,Good,46,"PM
+10",1/1,
+Charkhi Dadri,Good,45,"PM
+2.5",1/1,
+Fatehabad,Good,44,"PM
+10",1/1,
+Srinagar,Good,44,"PM
+10",2/2,
+Kalyan,Good,43,"PM
+10",1/2,
+Rohtak,Good,43,"PM
+10",1/1,
+Chamarajanagar,Good,43,"PM
+10",1/1,
+Kohima,Good,42,"SO
+2",1/1,
+Sangli,Good,42,"PM
+10",1/1,
+Kolhapur,Good,42,"PM
+10",2/2,
+Vijayapura,Good,39,"PM
+10",1/1,
+Ahmednagar,Good,39,"O
+3",1/1,
+Jalna,Good,38,"PM
+10",1/1,
+Dungarpur,Good,38,"O
+3",1/1,
+Mangalore,Good,37,"O
+3",1/1,
+Kalaburagi,Good,37,"PM
+10",1/2,
+Gangtok,Good,34,"PM
+2.5",1/1,
+Madikeri,Good,34,"PM
+2.5",1/1,
+Sirohi,Good,33,"PM
+2.5",1/1,
+Chikkamagaluru,Good,32,"PM
+10",1/1,
+Mira-Bhayandar,Good,32,"PM
+10",1/1,
+Nalbari,Good,31,"PM
+2.5",1/1,
+Ambernath,Good,31,"PM
+10",1/1,
+Gadag,Good,28,"SO
+2",1/1,
+Pampore,Good,25,"PM
+10",1/1,
