@@ -34,7 +34,18 @@ jobs:
 
       - name: Verify kernel installation
         run: jupyter kernelspec list
+      
+      - name: Debug env
+        run: |
+          if [ -z "$GOOGLE_API_KEY" ]; then
+            echo "GOOGLE_API_KEY is EMPTY or NOT SET"
+          else
+            echo "GOOGLE_API_KEY is SET (length: ${#GOOGLE_API_KEY})"
+          fi
+      
       # MAKE SURE YOUR SCRAPER FILENAME MATCHES THE FILENAME HERE!!
+      - name: Run the scraping script
+        run: jupyter nbconvert --to notebook --execute "aqi_tracker_all_cities.ipynb" --output executed_notebook.ipynb
       - name: Run the scraping script
         run: jupyter nbconvert --to notebook --execute "aqi_tracker_all_cities.ipynb" --output executed_notebook.ipynb #--stdout
       # I just stole the rest of this code so don't ask me questions about it
