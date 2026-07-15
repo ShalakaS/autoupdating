@@ -3,4 +3,4 @@ myenv/
 venv/
 *.pyc
 __pycache__/
-
+AQI_Bulletin_*.pdf
