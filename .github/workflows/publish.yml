@@ -35,8 +35,6 @@ jobs:
       - name: Verify kernel installation
         run: jupyter kernelspec list
 
-      - name:
-      
       # MAKE SURE YOUR SCRAPER FILENAME MATCHES THE FILENAME HERE!!
       - name: Run the scraping script
         run: jupyter nbconvert --to notebook --execute "aqi_tracker_all_cities.ipynb" --output executed_notebook.ipynb #--stdout
