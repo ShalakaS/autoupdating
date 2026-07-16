@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install necessary Python packages
-        run: pip install pandas jupyter lxml requests pdfplumber certifi folium googlemaps pytz python-dotenv openpyxl
+        run: pip install pandas jupyter lxml requests pdfplumber certifi folium pytz python-dotenv openpyxl geopy
       
       - name: Install Jupyter kernel for Python 3.11
         run: python -m ipykernel install --user --name=python3.11
@@ -34,14 +34,8 @@ jobs:
 
       - name: Verify kernel installation
         run: jupyter kernelspec list
-      
-      - name: Debug env
-        run: |
-          if [ -z "$GOOGLE_API_KEY" ]; then
-            echo "GOOGLE_API_KEY is EMPTY or NOT SET"
-          else
-            echo "GOOGLE_API_KEY is SET (length: ${#GOOGLE_API_KEY})"
-          fi
+
+      - name:
       
       # MAKE SURE YOUR SCRAPER FILENAME MATCHES THE FILENAME HERE!!
       - name: Run the scraping script
